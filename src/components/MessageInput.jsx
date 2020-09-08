@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 class MessageInput extends Component {
+  state = { messageContent: "" };
+  // createMessage(messagecontent)
   render() {
     return (
       <form>

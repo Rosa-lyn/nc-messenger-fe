@@ -7,3 +7,16 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.message-list {
+  list-style-type: none;
+  padding: 0;
+}

@@ -1,11 +1,12 @@
 import React from "react";
 
-const MessageCard = () => {
+const MessageCard = (props) => {
+  const { message } = props;
   return (
-    <div>
+    <div className="card-container">
       <img src="" alt="userpic" />
-      <h3>Helen</h3>
-      <p>I am a message</p>
+      <h3>{message.username}</h3>
+      <p>{message.msg}</p>
     </div>
   );
 };
